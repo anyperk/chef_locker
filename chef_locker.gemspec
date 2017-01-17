@@ -11,6 +11,8 @@ Gem::Specification.new do |s|
   s.add_dependency 'chef', '~> 12.0'
   s.add_development_dependency 'rspec', '~> 3.5'
 
+  s.executables = %w(chef_locker)
+
   s.files = `git ls-files`.split($/)
   s.test_files = s.files.grep(%r{\Aspec/})
 end

@@ -1,0 +1,16 @@
+#!/usr/bin/env ruby
+
+usage_string = "Usage: #{$0} MESSAGE"
+
+if %w(-h --help).include?(ARGV[0])
+  puts usage_string
+  exit
+end
+
+require 'chef_locker'
+
+begin
+  ChefLocker.new.lock(ARGV.join(' '))
+rescue ArgumentError
+  abort usage_string
+end
