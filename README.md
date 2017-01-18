@@ -10,7 +10,7 @@ chef_gem 'chef_locker'
 
 To run the script, try something like the following in a screen/tmux session:
 ```bash
-$ sudo /opt/chef/embedded/bin/chef_locker 'Testing CDN host change'
+$ sudo /opt/chefdk/embedded/bin/chef_locker 'Testing CDN host change'
 ```
 Wait until `Lock acquired` appears.
 
