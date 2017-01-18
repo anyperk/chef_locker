@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = 'chef_locker'
-  s.version = '0.0.0'
+  s.version = '0.1.0'
   s.authors = ['AnyPerk Engineering']
   s.email = ['engineering@anyperk.com']
   s.summary = 'Lock Chef runs'
