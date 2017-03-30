@@ -12,7 +12,7 @@ To run the script, try something like the following in a screen/tmux session:
 ```bash
 $ sudo /opt/chefdk/embedded/bin/chef_locker 'Testing CDN host change'
 ```
-Wait until `Lock acquired` appears. To remove the lock and reenable Chef again, kill the process (`ctl` + `c`).
+Wait until `Lock acquired` appears. To remove the lock and reenable Chef again, kill the process (`ctrl` + `c`).
 
 Note that if something like rvm is installed, you may have to create a wrapper
 script to unset some Ruby-related environment variables.
