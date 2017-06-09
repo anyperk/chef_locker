@@ -1,8 +1,8 @@
 Gem::Specification.new do |s|
   s.name = 'chef_locker'
   s.version = '0.1.0'
-  s.authors = ['AnyPerk Engineering']
-  s.email = ['engineering@anyperk.com']
+  s.authors = ['Fond Engineering']
+  s.email = ['engineering@fond.co']
   s.summary = 'Lock Chef runs'
   s.description = 'This contains a script to lock Chef runs.'
   s.homepage = 'https://github.com/anyperk/chef_locker'
